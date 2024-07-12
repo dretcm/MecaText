@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Palabras Random</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="menu" class="menu">
+        <a href="#" id="game1Link">Juego 1</a>
+        <a href="#" id="game2Link">Juego 2</a>
+        <a href="#" id="game3Link">Juego 3</a>
+    </div>
+
+    <div id="wordContainer"></div>
+    <div id="wordContainer_put"></div>
+    <div id="topRightContainer">
+        <div id="scoreContainer">Palabras correctas: <span id="score">0</span></div>
+        <div id="timerContainer">Tiempo restante: <span id="timer">60</span> segundos</div>
+    </div>
+    <button id="restartButton" onclick="restartGame()" style="display: none;">Reiniciar</button>
+    <script src="script.js"></script>
+</body>
+</html>
